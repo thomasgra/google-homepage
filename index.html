@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <style>
+
+body {
+margin: 0;
+padding: 0;
+background: rgb(253, 251, 251);
+}
+
+.nav ul {
+list-style: none;
+background-color: rgb(168, 108, 108);
+text-align: center;
+padding: 0;
+margin: 0;
+}
+.nav li {
+font-family: 'Oswald', sans-serif;
+font-size: 1.2em;
+line-height: 40px;
+height: 40px;
+border-bottom: 1px solid #888;
+}
+
+.nav a {
+text-decoration: none;
+color: #fff;
+display: block;
+transition: .3s background-color;
+}
+
+.nav a:hover {
+background-color: #005f5f;
+}
+
+.nav a.active {
+background-color: #fff;
+color: #444;
+cursor: default;
+}
+
+@media screen and (min-width: 600px) {
+.nav li {
+width: 120px;
+border-bottom: none;
+height: 50px;
+line-height: 50px;
+font-size: 1.4em;
+}
+
+/* Option 1 - Display Inline */
+.nav li {
+display: inline-block;
+margin-right: -4px;
+}
+
+/* Options 2 - Float
+.nav li {
+float: left;
+}
+.nav ul {
+overflow: auto;
+width: 600px;
+margin: 0 auto;
+}
+.nav {
+background-color: #444;
+}
+*/
+}
+
+
+            .aligncenter {
+                position:absolute;
+    top:35%;
+    left:40%;
+            }
+            </style>
+            
+</head>
+        <body>
+
+
+<body class="news">
+    <header>
+      <div class="nav">
+        <ul>
+          <li class="home"><a href="#">Home</a></li>
+          <li class="tutorials"><a class="active" href="#">Gmail</a></li>
+          <li class="about"><a href="#">Gdrive</a></li>
+          <li class="news"><a href="#">Photos</a></li>
+          <li class="contact"><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+  </body>
+  
+  
+            <div class="aligncenter">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" width="272" height="92">
+                <form>
+                    <input type="text" placeholder="DuckDuckGo" required>
+                    <input type="button" value="Search">
+    </form>
+            
+
+        </body>
+
+
+
+</html>
